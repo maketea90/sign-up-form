@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf") format('opentype')
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color:blueviolet
+}
+
+.image {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex: auto;
+}
+
+/* #grass-background {
+    position: relative;
+    z-index: -5; 
+    height: 70vh;
+} */
+
+#odin-img {
+    background-color: rgba(0,0,0,0.7);
+    height: 10vh;
+}
+
+.background-img {
+    background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
+    height: 84vh;
+    width: 30vw;
+    background-size:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+    top: 170px;
+    width: 30vw;
+}
+
+header, #main-footer {
+    background-color: black;
+    height: 8vh;
+    position: relative;
+}
+
+#odin-text {
+    display: flex;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 7vh;
+    font-family: Norse-Bold;
+    height: 10vh;
+    align-items: center;
+}
+
+#photo-credit {
+    color: whitesmoke;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 8vh;
+}
+
+.flex {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.form {
+    display: flex;
+    /* flex:auto; */
+    justify-content: flex-start;
+    margin: 10px;
+    gap: 30px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    /* flex: auto; */
+    position: relative;
+    bottom: 100px;
+    margin: 10px 0;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  /* border-radius: 1em; */
+}
+
+.description {
+    position: relative;
+    bottom: 100px;
+    margin: 20px;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline;
+    width: 90px;
+    font-size: 10pt;
+    white-space: nowrap;
+    
+    /* text-align: right; */
+  }
+
+  .form-element {
+    display: flex;
+    flex-direction: column;
+    /* flex: auto; */
+
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    /* flex: auto; */
+
+  }
+
+#submit-button {
+    width: 20vw;
+    background-color: green;
+    color: white;
+    margin: 26px;
+    position: relative;
+    bottom: 120px;
+    border-radius: 7%;
+  }
